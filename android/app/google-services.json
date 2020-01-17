@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523089495832",
+    "firebase_url": "https://e-gov-df0ba.firebaseio.com",
+    "project_id": "e-gov-df0ba",
+    "storage_bucket": "e-gov-df0ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523089495832:android:21f344d1ada324425b806d",
+        "android_client_info": {
+          "package_name": "com.egov.uz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523089495832-evh0ava7h2nb2vpqsjqmdt5jt46ts0np.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egov.uz",
+            "certificate_hash": "416147137a8e4a5437733bfea24a95f5aea20c95"
+          }
+        },
+        {
+          "client_id": "523089495832-mfp3qospptknr0ikqkjg89dipuqc3ehq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACiYD_HnqviYjcq6ucGTuYHuUSZviqEMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523089495832-mfp3qospptknr0ikqkjg89dipuqc3ehq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
