@@ -1,7 +1,7 @@
 import 'dart:core';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_demo/auth/auth_screen.dart';
+import 'package:flutter_chat_demo/screens/auth/auth_screen.dart';
 
 
 void printWrapped(String text) {

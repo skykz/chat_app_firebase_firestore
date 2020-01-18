@@ -5,7 +5,7 @@
 // are correct.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_demo/auth/auth_screen.dart';
+import 'package:flutter_chat_demo/screens/auth/auth_screen.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

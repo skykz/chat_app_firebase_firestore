@@ -6,13 +6,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
-import 'package:flutter_chat_demo/auth/auth.dart';
+import 'package:flutter_chat_demo/logics/auth.dart';
 import 'package:flutter_chat_demo/utils/common_utils.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../main.dart';
+import '../../main.dart';
+
 
 
 class AuthorizationScreen extends StatefulWidget {
@@ -421,7 +422,12 @@ class _AuthorizationScreenState extends State<AuthorizationScreen> {
         SizedBox(height: screenAwareHeight(100, context)),
         RaisedButton(
         onPressed: () => _doneFunc(isTeacher),
-        color:Colors.green[200],
+        color:Colors.green[300],
+        padding: EdgeInsets.only(right: 35,left: 35),
+        shape: RoundedRectangleBorder(
+        borderRadius: new BorderRadius.circular(18.0),
+        side: BorderSide(color: Colors.greenAccent)
+        ),
         child: Text('Готово'),        
       ),                 
       ],

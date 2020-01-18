@@ -7,13 +7,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_demo/screens/auth/auth_screen.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'auth/auth_screen.dart';
-import 'chat/chat.dart';
+import 'screens/home/chat/chat.dart';
 import 'utils/const.dart';
 
 void main() => runApp(
